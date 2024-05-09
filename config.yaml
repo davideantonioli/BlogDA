@@ -1,4 +1,4 @@
-baseurl: https://github.com/davideantonioli/BlogDA.git
+baseurl: http://localhost:4321/davideantonioli/BlogDA.git/
 languageCode: en-US
 title: A Hugo website
 theme: hugo-lithium
