@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Hugo website</title>
-    <link>//localhost:4321/</link>
+    <link>/</link>
     <description>Recent content on A Hugo website</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 03 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:4321/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Work from home</title>
-      <link>//localhost:4321/2024/05/03/work-from-home/</link>
+      <link>/2024/05/03/work-from-home/</link>
       <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/2024/05/03/work-from-home/</guid>
+      <guid>/2024/05/03/work-from-home/</guid>
       <description>Working from home in EU A picture of the diffusion of the working from home modality during and &amp;lsquo;after&amp;rsquo; the pandemic in EU countries.&#xA;A clear huge revolution in the work organisation, which can not be dismissed as a temporary measure to overcome the Covid-19 pandemic.&#xA;A simple measure gives count of the phenomenon. The average percent of workers (employees) that usually work from home in the following years: 2019, 3.</description>
     </item>
     <item>
       <title>Italy: governance</title>
-      <link>//localhost:4321/2022/08/26/italy-governance/</link>
+      <link>/2022/08/26/italy-governance/</link>
       <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/2022/08/26/italy-governance/</guid>
+      <guid>/2022/08/26/italy-governance/</guid>
       <description>As the national political elections approach (25th of September 2022) it might worth pointing out the Italian situation, compared with other relevant EU countries like France, Germany and Spain, in terms of two governance dimension:&#xA;the rule of law (Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.</description>
     </item>
     <item>
       <title>Italy: corruption perception and control</title>
-      <link>//localhost:4321/2022/08/24/italy-corruption-perception/</link>
+      <link>/2022/08/24/italy-corruption-perception/</link>
       <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/2022/08/24/italy-corruption-perception/</guid>
+      <guid>/2022/08/24/italy-corruption-perception/</guid>
       <description>As the national political elections approach (25th of September 2022) it might worth pointing out the Italian situation, compared with other relevant EU countries like France, Germany and Spain, in terms of a governance dimension associated to corruption perception and control.&#xA;Here I present two indexes: one coming from the Transparency International organisation (Fig.1) and the other coming from The World Bank (Fig.2) over a period going from 2013 to 2021 (when available).</description>
     </item>
     <item>
       <title>RdC</title>
-      <link>//localhost:4321/2022/07/25/rdc/</link>
+      <link>/2022/07/25/rdc/</link>
       <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/2022/07/25/rdc/</guid>
+      <guid>/2022/07/25/rdc/</guid>
       <description>A measure of social protection in Italy: Reddito di Cittadinanza (RdC)&#xD;The RdC, an articulated measure of social protection in Italy, targets the most vulnerable regions.&#xA;This form of ‘basic income’ is designed as an active policy on the labour market, since it works as an economic support to the family income associated with a path of work and social reintegration, given that the beneficiaries need to be immediately available to train and to work.</description>
     </item>
     <item>
       <title>About</title>
-      <link>//localhost:4321/about/</link>
+      <link>/about/</link>
       <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
-      <guid>//localhost:4321/about/</guid>
+      <guid>/about/</guid>
       <description>I am a Professor in Economics in the Department of Economics and Management at the University of Ferrara. The idea of this blog is to bring to it some evidence-based socio-economic research pills.&#xA;Links My website&#xA;Department of Economics and Management&#xA;IdeasRepec&#xA;ResearchGate&#xA;This site is a simple &amp;lsquo;repository&amp;rsquo; of posts about economic and social phenomena. The blog site has been created via blogdown package.</description>
     </item>
   </channel>
