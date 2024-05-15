@@ -1,4 +1,4 @@
-baseurl: https://github.com/davideantonioli/BlogDA
+baseurl: /
 languageCode: en-US
 title: A Hugo website
 theme: hugo-lithium
@@ -41,4 +41,3 @@ markup:
       unsafe: yes
   highlight:
     codeFences: no
-
