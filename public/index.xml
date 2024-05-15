@@ -2,39 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Hugo website</title>
-    <link>/</link>
+    <link>//localhost:4321/</link>
     <description>Recent content on A Hugo website</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:4321/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello R Markdown</title>
-      <link>/2020/12/01/hello-r-markdown/</link>
+      <link>//localhost:4321/2020/12/01/hello-r-markdown/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      <guid>/2020/12/01/hello-r-markdown/</guid>
+      <guid>//localhost:4321/2020/12/01/hello-r-markdown/</guid>
       <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.&#xA;You can embed an R code chunk like this:&#xA;summary(cars)&#xD;## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
     </item>
     <item>
       <title>A Plain Markdown Post</title>
-      <link>/2016/12/30/a-plain-markdown-post/</link>
+      <link>//localhost:4321/2016/12/30/a-plain-markdown-post/</link>
       <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
-      <guid>/2016/12/30/a-plain-markdown-post/</guid>
+      <guid>//localhost:4321/2016/12/30/a-plain-markdown-post/</guid>
       <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:&#xA;You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc. There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
     </item>
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>//localhost:4321/about/</link>
       <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
-      <guid>/about/</guid>
+      <guid>//localhost:4321/about/</guid>
       <description>I am a Professor in Economics in the Department of Economics and Management at the University of Ferrara. The idea of this blog is to bring to it some evidence-based socio-economic research pills.&#xA;Links My website&#xA;Department of Economics and Management&#xA;IdeasRepec&#xA;ResearchGate&#xA;This site is a simple &amp;lsquo;repository&amp;rsquo; of posts about economic and social phenomena. The blog site has been created via blogdown package.</description>
     </item>
     <item>
       <title>Lorem Ipsum</title>
-      <link>/2015/01/01/lorem-ipsum/</link>
+      <link>//localhost:4321/2015/01/01/lorem-ipsum/</link>
       <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
-      <guid>/2015/01/01/lorem-ipsum/</guid>
+      <guid>//localhost:4321/2015/01/01/lorem-ipsum/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:4321/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/1/01/01/</guid>
+      <description>&lt;!DOCTYPE html&gt;&#xD;Work from home&#xD;Work from home&#xD;2022-07-24&#xD;Working from home in EU&#xD;A picture of the diffusion of the working from home modality during&#xD;and ‘after’ the pandemic in EU countries.&#xA;A clear huge revolution in the work organisation, which can not be&#xD;dismissed as a temporary measure to overcome the Covid-19 pandemic.&#xA;A simple measure gives count of the phenomenon. The average percent of&#xD;workers (employees) that usually work from home in the following years:&#xD;%;&#xD;%;&#xD;%;&#xD;%;&#xD;%.</description>
     </item>
   </channel>
 </rss>
