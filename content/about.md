@@ -3,7 +3,7 @@ date: "2016-05-05T21:48:51-07:00"
 title: About
 ---
 
-I am a Professor in Economics in the [Department of Economics and Management](http://eco.unife.it/it) at the University of Ferrara.
+I am a Professor in Economics in the [Department of Economics and Management](http://eco.unife.it/it) at the University of Ferrara, Italy.
 The idea of this blog is to bring to it some evidence-based socio-economic research pills.
 
 -----
