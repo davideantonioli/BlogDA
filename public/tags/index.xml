@@ -1,39 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on A Simple Blog</title>
-    <link>//localhost:4321/tags/</link>
-    <description>Recent content in Tags on A Simple Blog</description>
+    <title>Tags on A Hugo website</title>
+    <link>http://localhost:4321/davideantonioli/BlogDA/tags/</link>
+    <description>Recent content in Tags on A Hugo website</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:4321/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate>
+    <atom:link href="http://localhost:4321/davideantonioli/BlogDA/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>EU</title>
-      <link>//localhost:4321/tags/eu/</link>
+      <title>Plot</title>
+      <link>http://localhost:4321/davideantonioli/BlogDA/tags/plot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/tags/eu/</guid>
+      <guid>http://localhost:4321/davideantonioli/BlogDA/tags/plot/</guid>
       <description></description>
     </item>
     <item>
-      <title>WFH</title>
-      <link>//localhost:4321/tags/wfh/</link>
+      <title>R Markdown</title>
+      <link>http://localhost:4321/davideantonioli/BlogDA/tags/r-markdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/tags/wfh/</guid>
+      <guid>http://localhost:4321/davideantonioli/BlogDA/tags/r-markdown/</guid>
       <description></description>
     </item>
     <item>
-      <title>Governance</title>
-      <link>//localhost:4321/tags/governance/</link>
+      <title>Regression</title>
+      <link>http://localhost:4321/davideantonioli/BlogDA/tags/regression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/tags/governance/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>RdC</title>
-      <link>//localhost:4321/tags/rdc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/tags/rdc/</guid>
+      <guid>http://localhost:4321/davideantonioli/BlogDA/tags/regression/</guid>
       <description></description>
     </item>
   </channel>
