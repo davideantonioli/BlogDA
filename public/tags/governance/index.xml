@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Governance on A Hugo website</title>
-    <link>/tags/governance/</link>
-    <description>Recent content in Governance on A Hugo website</description>
+    <title>Governance on A Simple Blog</title>
+    <link>//localhost:4321/tags/governance/</link>
+    <description>Recent content in Governance on A Simple Blog</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 26 Aug 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/governance/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:4321/tags/governance/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Italy: governance</title>
-      <link>/2022/08/26/italy-governance/</link>
+      <link>//localhost:4321/2022/08/26/italy-governance/</link>
       <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>/2022/08/26/italy-governance/</guid>
+      <guid>//localhost:4321/2022/08/26/italy-governance/</guid>
       <description>As the national political elections approach (25th of September 2022) it might worth pointing out the Italian situation, compared with other relevant EU countries like France, Germany and Spain, in terms of two governance dimension:&#xA;the rule of law (Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.</description>
     </item>
   </channel>
