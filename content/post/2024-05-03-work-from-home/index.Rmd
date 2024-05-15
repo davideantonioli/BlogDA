@@ -2,13 +2,7 @@
 title: Work from home
 author: ''
 date: '2024-05-03'
-tags:
-  - EU
-  - WFH
-output:
-  html_document:
-    df_print: paged
-slug: work-from-home
+tags: ["EU", "WFH"]
 ---
 
 ```{r setup, include=FALSE}

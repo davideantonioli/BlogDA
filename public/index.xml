@@ -6,8 +6,15 @@
     <description>Recent content on A Hugo website</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 03 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:4321/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Work from home</title>
+      <link>//localhost:4321/2024/05/03/work-from-home/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/2024/05/03/work-from-home/</guid>
+      <description>Working from home in EU A picture of the diffusion of the working from home modality during and &amp;lsquo;after&amp;rsquo; the pandemic in EU countries.&#xA;A clear huge revolution in the work organisation, which can not be dismissed as a temporary measure to overcome the Covid-19 pandemic.&#xA;A simple measure gives count of the phenomenon. The average percent of workers (employees) that usually work from home in the following years: 2019, 3.</description>
+    </item>
     <item>
       <title>Hello R Markdown</title>
       <link>//localhost:4321/2020/12/01/hello-r-markdown/</link>
@@ -35,13 +42,6 @@
       <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
       <guid>//localhost:4321/2015/01/01/lorem-ipsum/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>//localhost:4321/1/01/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/1/01/01/</guid>
-      <description>&lt;!DOCTYPE html&gt;&#xD;Work from home&#xD;Work from home&#xD;2022-07-24&#xD;Working from home in EU&#xD;A picture of the diffusion of the working from home modality during&#xD;and ‘after’ the pandemic in EU countries.&#xA;A clear huge revolution in the work organisation, which can not be&#xD;dismissed as a temporary measure to overcome the Covid-19 pandemic.&#xA;A simple measure gives count of the phenomenon. The average percent of&#xD;workers (employees) that usually work from home in the following years:&#xD;%;&#xD;%;&#xD;%;&#xD;%;&#xD;%.</description>
     </item>
   </channel>
 </rss>

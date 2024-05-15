@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WFH on A Hugo website</title>
+    <link>/tags/wfh/</link>
+    <description>Recent content in WFH on A Hugo website</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 03 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/wfh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Work from home</title>
+      <link>/2024/05/03/work-from-home/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      <guid>/2024/05/03/work-from-home/</guid>
+      <description>Working from home in EU A picture of the diffusion of the working from home modality during and &amp;lsquo;after&amp;rsquo; the pandemic in EU countries.&#xA;A clear huge revolution in the work organisation, which can not be dismissed as a temporary measure to overcome the Covid-19 pandemic.&#xA;A simple measure gives count of the phenomenon. The average percent of workers (employees) that usually work from home in the following years: 2019, 3.</description>
+    </item>
+  </channel>
+</rss>
