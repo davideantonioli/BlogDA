@@ -88,6 +88,7 @@ right_join(reg2022, collapse_rdc, by = "DEN_REG") %>%
               caption = "Data source: Inps")
 
 ```
+
 It must be noted that there are within regional heterogeneity both in the northern and (especially) in the southern part of Italy, as a map by province (NUTS3 geographical unit) shows.
 
 ```{r rdcplot2, echo=FALSE, warning=FALSE, message=FALSE}
@@ -107,4 +108,6 @@ right_join(prov2022, collapse_rdc1, by = "SIGLA") %>%
               caption = "Data source: Inps")
 
 ```
-For further insights (in Italian language) see <https://www.inps.it/dati-ricerche-e-bilanci/osservatori-statistici-e-altre-statistiche/dati-cartacei-rdc>
+For further insights (in Italian language) see:
+
+<https://www.inps.it/dati-ricerche-e-bilanci/osservatori-statistici-e-altre-statistiche/dati-cartacei-rdc>

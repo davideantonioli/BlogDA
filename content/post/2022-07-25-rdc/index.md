@@ -23,7 +23,10 @@ It is possible to  appreciate from the regional (NUTS2 geographical unit) map be
 
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/rdcplot1-1.png" width="672" />
+
 It must be noted that there are within regional heterogeneity both in the northern and (especially) in the southern part of Italy, as a map by province (NUTS3 geographical unit) shows.
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/rdcplot2-1.png" width="672" />
-For further insights (in Italian language) see <https://www.inps.it/dati-ricerche-e-bilanci/osservatori-statistici-e-altre-statistiche/dati-cartacei-rdc>
+For further insights (in Italian language) see:
+
+<https://www.inps.it/dati-ricerche-e-bilanci/osservatori-statistici-e-altre-statistiche/dati-cartacei-rdc>
