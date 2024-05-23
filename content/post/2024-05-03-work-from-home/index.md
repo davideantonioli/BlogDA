@@ -21,6 +21,8 @@ Moreover, as we can appreciate, the dynamic of the percentage of employees usual
 
 Since the number of employees in EU countries is around 155 millions, the positive delta percent of 10 points registered from 2019 to 2021 for those employees 'usually working from home' involved around 15 millions employees.
 
+Currently, we are experiencing a 'return to the past' to some extent, with a stabilisation of hybrid forms of work halfaway between the pre Covid-19 pandemic (around 2%) and the 2021 peak (around 12%).
+
 <img src="{{< blogdown/postref >}}index_files/figure-html/WFHplot-1.png" width="672" />
 
 For further insights see:

@@ -1,0 +1,91 @@
+---
+title: Energy prices in Italy
+author: ''
+date: '2024-05-17'
+tags: ["Energy prices", "Italy"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(eurostat)
+library(tidyr)
+library(dplyr)
+library(httr)
+library(jsonlite)
+library(sf)
+library(ggplot2)
+library(doBy)
+library(plm)
+library(panelr)
+library(stargazer)
+library(tidyverse)
+library(gplots)
+library(foreign)
+library(lmtest)
+library(AER)
+
+
+```
+
+```{r Energy, include=FALSE}
+Energy <- get_eurostat(id="nrg_pc_204",
+                    time_format = "num",
+                    type = "label",
+                    clean_cache = TRUE
+                    )
+Energy_1 <- subset(Energy, geo=="Italy" & currency=="Euro" & tax=="All taxes and levies included" & nrg_cons=="Consumption from 2 500 kWh to 4 999 kWh - band DC" | geo=="Germany" & currency=="Euro" & tax=="All taxes and levies included" & nrg_cons=="Consumption from 2 500 kWh to 4 999 kWh - band DC" | geo=="France" & currency=="Euro" & tax=="All taxes and levies included" & nrg_cons=="Consumption from 2 500 kWh to 4 999 kWh - band DC" | geo=="Spain" & currency=="Euro" & tax=="All taxes and levies included" & nrg_cons=="Consumption from 2 500 kWh to 4 999 kWh - band DC")
+LongDataset <- pdata.frame(Energy_1, index=c("geo", "TIME_PERIOD"))
+#LongDataset$TIME_PERIOD <- substr(LongDataset$TIME_PERIOD,3,4)
+
+# group_by(TIME_PERIOD) %>%
+#   summarise_at(vars(values), 
+#                na.rm = TRUE, 
+#                list(PercWFH = mean))
+# M2019 <- subset(WFHMean, TIME_PERIOD=="2019")  %>%
+#   round(digits=2)
+# M2020 <- subset(WFHMean, TIME_PERIOD=="2020")  %>%
+#   round(digits=2)
+# M2021 <- subset(WFHMean, TIME_PERIOD=="2021")  %>%
+#   round(digits=2)
+# M2022 <- subset(WFHMean, TIME_PERIOD=="2022")  %>%
+#   round(digits=2)
+# M2023 <- subset(WFHMean, TIME_PERIOD=="2023")  %>%
+#   round(digits=2)
+# WFHMean <- rename(WFHMean, Year = "TIME_PERIOD")
+
+LongDataset <- dplyr::rename(LongDataset, Country=geo)
+```
+
+With this very brief post I would like to stress the attention on the electricity prices for the Italian market. The focus is on households and the consumption band is between 2500 KWh and 5000 KWh (according to Eurostat the medium standard household consumption band in Europe).  
+
+Although it is well known the shock brought about by the war in Ukraine on the energy markets in 2022, it is also worth remarking the fact that in Italy we are  experiencing a shift towards the free market where the presence of several competitors should guarantee low energy prices.
+
+
+
+
+```{r plot_energyp, echo=FALSE, warning=FALSE, message=FALSE}
+
+## define base for the graphs and store in object 'p'
+
+p <- ggplot(data = LongDataset, aes(x = TIME_PERIOD, y = values, group = Country, linetype=Country, shape=Country))
+
+p + geom_point() +
+  geom_line() +
+  labs(x='Half Yearly values from 2007 to 2023; 
+       Consumption between 2500 and 5000KWh', 
+       y='Prices trend (Euro per KWh)',
+       title='Fig.1: Electricity prices trend in EU selected countries; 
+       (All taxes and levies included)',
+       caption='Source: Eurostat') +
+    cowplot::theme_cowplot() +
+  scale_x_discrete(breaks = "2021")
+
+```
+
+
+As it is shown in Fig.1 the electricity prices for Italy highlight an uprise, because of the war, higher than in France or Germany. 
+The prices for the Italian energy system seems more vulnerable to shocks with respect to other comparable EU countries.
+
+
+For further insights see:
+<https://ec.europa.eu/eurostat/databrowser/view/nrg_pc_204/default/table?lang=en>

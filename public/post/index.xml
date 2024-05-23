@@ -6,8 +6,15 @@
     <description>Recent content in Posts on BlogDA</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Energy prices in Italy</title>
+      <link>/2024/05/17/energy-prices-in-italy/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+      <guid>/2024/05/17/energy-prices-in-italy/</guid>
+      <description>With this very brief post I would like to stress the attention on the electricity prices for the Italian market. The focus is on households and the consumption band is between 2500 KWh and 5000 KWh (according to Eurostat the medium standard household consumption band in Europe).&#xA;Although it is well known the shock brought about by the war in Ukraine on the energy markets in 2022, it is also worth remarking the fact that in Italy we are experiencing a shift towards the free market where the presence of several competitors should guarantee low energy prices.</description>
+    </item>
     <item>
       <title>Work from home</title>
       <link>/2024/05/03/work-from-home/</link>
