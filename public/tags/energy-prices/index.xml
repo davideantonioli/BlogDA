@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Energy Prices on BlogDA</title>
-    <link>//localhost:4321/tags/energy-prices/</link>
+    <link>/tags/energy-prices/</link>
     <description>Recent content in Energy Prices on BlogDA</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:4321/tags/energy-prices/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/energy-prices/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Energy prices in Italy</title>
-      <link>//localhost:4321/2024/05/17/energy-prices-in-italy/</link>
+      <link>/2024/05/17/energy-prices-in-italy/</link>
       <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/2024/05/17/energy-prices-in-italy/</guid>
+      <guid>/2024/05/17/energy-prices-in-italy/</guid>
       <description>With this very brief post I would like to stress the attention on the electricity prices for the Italian market. The focus is on households and the consumption band is between 2500 KWh and 5000 KWh (according to Eurostat the medium standard household consumption band in Europe).&#xA;Although it is well known the shock brought about by the war in Ukraine on the energy markets in 2022, it is also worth remarking the fact that in Italy we are experiencing a shift towards the free market where the presence of several competitors should guarantee low energy prices.</description>
     </item>
   </channel>
