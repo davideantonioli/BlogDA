@@ -2,51 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>//localhost:4321/</loc>
     <lastmod>2024-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/energy-prices/</loc>
+    <loc>//localhost:4321/tags/energy-prices/</loc>
     <lastmod>2024-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/2024/05/17/energy-prices-in-italy/</loc>
+    <loc>//localhost:4321/2024/05/17/energy-prices-in-italy/</loc>
     <lastmod>2024-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/italy/</loc>
+    <loc>//localhost:4321/tags/italy/</loc>
     <lastmod>2024-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/</loc>
+    <loc>//localhost:4321/post/</loc>
     <lastmod>2024-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>//localhost:4321/tags/</loc>
     <lastmod>2024-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/eu/</loc>
+    <loc>//localhost:4321/tags/eu/</loc>
     <lastmod>2024-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/wfh/</loc>
+    <loc>//localhost:4321/tags/wfh/</loc>
     <lastmod>2024-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/2024/05/03/work-from-home/</loc>
+    <loc>//localhost:4321/2024/05/03/work-from-home/</loc>
     <lastmod>2024-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/governance/</loc>
+    <loc>//localhost:4321/2023/09/30/irsmart-project-main-results/</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:4321/tags/governance/</loc>
     <lastmod>2022-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/2022/08/26/italy-governance/</loc>
+    <loc>//localhost:4321/2022/08/26/italy-governance/</loc>
     <lastmod>2022-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/2022/08/24/italy-corruption-perception/</loc>
+    <loc>//localhost:4321/2022/08/24/italy-corruption-perception/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/rdc/</loc>
+    <loc>//localhost:4321/tags/rdc/</loc>
     <lastmod>2022-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/2022/07/25/rdc/</loc>
+    <loc>//localhost:4321/2022/07/25/rdc/</loc>
     <lastmod>2022-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>//localhost:4321/about/</loc>
     <lastmod>2016-05-05T21:48:51-07:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>//localhost:4321/categories/</loc>
   </url>
 </urlset>
