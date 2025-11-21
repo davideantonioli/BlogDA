@@ -6,8 +6,15 @@
     <description>Recent content on BlogDA</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:4321/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Citizen Analytics - CITYBLE project</title>
+      <link>//localhost:4321/2024/07/24/citizen-analytics-cityble-project/</link>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/2024/07/24/citizen-analytics-cityble-project/</guid>
+      <description>This post concerns the PRIN project called CITYBLE that I am coordinating. The project&amp;rsquo;s partners are the University of Ferrara, University of Milan and University of Salento.</description>
+    </item>
     <item>
       <title>Energy prices in Italy</title>
       <link>//localhost:4321/2024/05/17/energy-prices-in-italy/</link>

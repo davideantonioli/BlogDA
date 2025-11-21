@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on BlogDA</title>
-    <link>/tags/</link>
+    <link>//localhost:4321/tags/</link>
     <description>Recent content in Tags on BlogDA</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:4321/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Energy Prices</title>
-      <link>/tags/energy-prices/</link>
+      <link>//localhost:4321/tags/energy-prices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/energy-prices/</guid>
+      <guid>//localhost:4321/tags/energy-prices/</guid>
       <description></description>
     </item>
     <item>
       <title>Italy</title>
-      <link>/tags/italy/</link>
+      <link>//localhost:4321/tags/italy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/italy/</guid>
+      <guid>//localhost:4321/tags/italy/</guid>
       <description></description>
     </item>
     <item>
       <title>EU</title>
-      <link>/tags/eu/</link>
+      <link>//localhost:4321/tags/eu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/eu/</guid>
+      <guid>//localhost:4321/tags/eu/</guid>
       <description></description>
     </item>
     <item>
       <title>WFH</title>
-      <link>/tags/wfh/</link>
+      <link>//localhost:4321/tags/wfh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/wfh/</guid>
+      <guid>//localhost:4321/tags/wfh/</guid>
       <description></description>
     </item>
     <item>
       <title>Governance</title>
-      <link>/tags/governance/</link>
+      <link>//localhost:4321/tags/governance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/governance/</guid>
+      <guid>//localhost:4321/tags/governance/</guid>
       <description></description>
     </item>
     <item>
       <title>RdC</title>
-      <link>/tags/rdc/</link>
+      <link>//localhost:4321/tags/rdc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/rdc/</guid>
+      <guid>//localhost:4321/tags/rdc/</guid>
       <description></description>
     </item>
   </channel>

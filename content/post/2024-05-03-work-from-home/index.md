@@ -15,7 +15,7 @@ A picture of the diffusion of the working from home modality during and 'after' 
 
 A clear huge revolution in the work organisation, which can not be dismissed as a temporary measure to overcome the Covid-19 pandemic.
 
-A simple measure gives count of the phenomenon. The average percent of workers (employees) that usually work from home in the following years: 2019, 3.28%; 2020, 8.71%; 2021, 11.98%; 2022, 7.95%; 2023, 6.79%.
+A simple measure gives count of the phenomenon. The average percent of workers (employees) that usually work from home in the following years: 2019, 3.28%; 2020, 8.81%; 2021, 12.01%; 2022, 7.96%; 2023, 6.68%.
 
 Moreover, as we can appreciate, the dynamic of the percentage of employees usually working from home (PercWFH) was rather flat in the past thirty years, with a peak in the last two.
 
