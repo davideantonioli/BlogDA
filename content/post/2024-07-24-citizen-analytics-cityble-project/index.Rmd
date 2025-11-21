@@ -1,7 +1,7 @@
 ---
 title: Citizen Analytics - CITYBLE project
 author: ''
-date: '2025-12-04'
+date: '2025-11-04'
 slug: citizen-analytics-cityble-project
 categories: []
 tags: []
