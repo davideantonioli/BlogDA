@@ -1,0 +1,78 @@
+---
+title: Employment protection legislation in OECD countries
+author: ''
+date: '2026-03-19'
+tags: ["OECD", "Labour market", "EPL"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readxl)
+library(dplyr)
+library(ggplot2)
+library(cowplot)
+```
+
+```{r EPL, include=FALSE}
+# Official OECD workbook (2020/2021 edition)
+#oecd_url <- "https://webfs.oecd.org/Els-com/Employment%20Protection%20Legislation/OECDEmploymentProtectionLegislationDatabase.xlsx"
+
+EPL <- read_excel("G:/Il mio Drive/R/BlogDA/content/post/2026-03-19-oecd-epl/OECDEmploymentProtectionLegislationDatabase.xlsx",
+  sheet = "EPL dismissal regular workers",
+  skip = 5
+)
+
+# Rename the summary-indicator columns explicitly so the code remains stable
+names(EPL)[1:10] <- c(
+  "Country", "Year",
+  "EPR_V1", "EPR_V3", "EPR_V4",
+  "EPC_V2", "EPC_V4",
+  "EPRC_V2", "EPRC_V3", "EPRC_V4"
+)
+
+EPLMean <- EPL %>%
+  filter(!is.na(Country), !is.na(Year), !is.na(EPRC_V4)) %>%
+  group_by(Year) %>%
+  summarise(MeanEPL = mean(EPRC_V4, na.rm = TRUE), .groups = "drop")
+
+M2013 <- EPLMean %>% filter(Year == 2013) %>% pull(MeanEPL) %>% round(2)
+M2014 <- EPLMean %>% filter(Year == 2014) %>% pull(MeanEPL) %>% round(2)
+M2015 <- EPLMean %>% filter(Year == 2015) %>% pull(MeanEPL) %>% round(2)
+M2016 <- EPLMean %>% filter(Year == 2016) %>% pull(MeanEPL) %>% round(2)
+M2017 <- EPLMean %>% filter(Year == 2017) %>% pull(MeanEPL) %>% round(2)
+M2018 <- EPLMean %>% filter(Year == 2018) %>% pull(MeanEPL) %>% round(2)
+M2019 <- EPLMean %>% filter(Year == 2019) %>% pull(MeanEPL) %>% round(2)
+```
+
+## Employment protection legislation in OECD countries
+
+A picture of the evolution of the OECD employment protection legislation index for regular contracts, using the Version 4 summary indicator for **individual and collective dismissals (EPRC)** on the OECD 0–6 scale.
+
+This indicator does **not** measure employment outcomes directly. It measures the relative strictness of dismissal regulation: the higher the value, the stricter the protection written into legislation and related rules.
+
+A simple measure gives a first idea of the phenomenon. The average OECD score in the latest available years is: `r M2013`; `r M2014`; `r M2015`; `r M2016`; `r M2017`; `r M2018`; `r M2019`.
+
+As we can appreciate, the OECD average is quite stable over the period covered by Version 4. This is consistent with the nature of employment protection legislation: it usually changes through discrete reforms, not through year-by-year cyclical movements.
+
+The series suggests a mild decline in the average strictness of protection for regular contracts between 2013 and 2019, though differences across countries remain substantial and national reforms matter much more than the small movement of the aggregate mean.
+
+```{r EPLplot, echo=FALSE, warning=FALSE, message=FALSE}
+EPLMean %>%
+  ggplot(aes(x = Year, y = MeanEPL)) +
+  geom_line() +
+  geom_point() +
+  labs(
+    title = "OECD EPL index (EPRC, average)",
+    subtitle = "Individual and collective dismissals for regular contracts, Version 4",
+    y = "Index (0-6)",
+    caption = "Data source: OECD Employment Protection Legislation Database"
+  ) +
+  scale_x_continuous(breaks = 2013:2019) +
+  cowplot::theme_cowplot()
+```
+
+For further insights see:
+
+<https://www.oecd.org/en/data/datasets/oecd-indicators-of-employment-protection.html>
+
+<https://www.oecd.org/en/publications/oecd-employment-outlook-2020_1686c758-en.html>.
