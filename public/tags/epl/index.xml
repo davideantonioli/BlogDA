@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EPL on BlogDA</title>
+    <link>//localhost:4321/tags/epl/</link>
+    <description>Recent content in EPL on BlogDA</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:4321/tags/epl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Employment protection legislation in OECD countries</title>
+      <link>//localhost:4321/2026/03/19/employment-protection-legislation-in-oecd-countries/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/2026/03/19/employment-protection-legislation-in-oecd-countries/</guid>
+      <description>Employment protection legislation in OECD countries A picture of the evolution of the OECD employment protection legislation index for regular contracts, using the Version 4 summary indicator for individual and collective dismissals (EPRC) on the OECD 0–6 scale.&#xA;This indicator does not measure employment outcomes directly. It measures the relative strictness of dismissal regulation: the higher the value, the stricter the protection written into legislation and related rules.&#xA;A simple measure gives a first idea of the phenomenon.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,176 @@
+---
+title: "Italy's innovation capacity in a European comparison"
+author: ''
+date: "2026-07-28"
+output: pdf_document
+tags:
+- Eurostat
+- Innovation
+- Research and development
+- Italy
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  warning = FALSE,
+  message = FALSE
+)
+
+# Install once, if necessary:
+# install.packages(c("eurostat", "dplyr", "ggplot2", "cowplot"))
+
+library(eurostat)
+library(dplyr)
+library(ggplot2)
+library(cowplot)
+library(blogdown)
+```
+
+```{r innovation-data, include=FALSE}
+# Eurostat indicator:
+# gross domestic expenditure on research and development (GERD),
+# all sectors, expressed as a percentage of GDP.
+# Online data code: rd_e_gerdtot
+
+country_names <- c(
+  IT = "Italy",
+  ES = "Spain",
+  FR = "France",
+  DE = "Germany"
+)
+
+innovation <- get_eurostat(
+  id = "rd_e_gerdtot",
+  time_format = "num",
+  type = "code",
+  filters = list(
+    freq = "A",
+    sectperf = "TOTAL",
+    unit = "PC_GDP",
+    geo = names(country_names),
+    lastTimePeriod = 11
+  )
+) %>%
+  transmute(
+    Country = factor(
+      unname(country_names[geo]),
+      levels = c("Italy", "Spain", "France", "Germany")
+    ),
+    Year = as.integer(time),
+    R_and_D_intensity = values
+  ) %>%
+  filter(!is.na(Country), !is.na(R_and_D_intensity)) %>%
+  arrange(Country, Year)
+
+first_year <- min(innovation$Year)
+latest_year <- max(innovation$Year)
+
+first_values <- innovation %>%
+  filter(Year == first_year) %>%
+  select(Country, initial_value = R_and_D_intensity)
+
+latest_values <- innovation %>%
+  filter(Year == latest_year) %>%
+  select(Country, latest_value = R_and_D_intensity)
+
+comparison <- first_values %>%
+  inner_join(latest_values, by = "Country") %>%
+  mutate(change_pp = latest_value - initial_value) %>%
+  arrange(desc(latest_value))
+
+italy <- comparison %>% filter(Country == "Italy")
+leader <- comparison %>% slice(1)
+italy_rank <- match("Italy", as.character(comparison$Country))
+
+fmt <- function(x, digits = 2) {
+  formatC(x, format = "f", digits = digits, decimal.mark = ".")
+}
+
+fmt_signed <- function(x, digits = 2) {
+  paste0(ifelse(x > 0, "+", ""), fmt(x, digits))
+}
+```
+
+## Italy's innovation capacity in a European comparison
+
+Measuring a country's innovation capacity with a single number is inevitably reductive. However, a useful indicator for an initial comparison is **research and development intensity**, defined as gross domestic expenditure on R&D as a share of GDP.
+
+This indicator shows how many resources an economy devotes to producing new knowledge and developing new applications. It does not directly measure the quality of research, the number of innovations introduced to the market, or their economic productivity. It should therefore be interpreted mainly as a measure of a country's **capacity to invest in innovation**.
+
+Using Eurostat data, we compare Italy, Spain, France, and Germany over the decade from `r first_year` to `r latest_year`.
+
+In `r latest_year`, among the four countries considered, the highest R&D intensity was recorded by **`r as.character(leader$Country)`**, where expenditure amounted to **`r fmt(leader$latest_value)`% of GDP**. Italy ranked **`r italy_rank`**, with a value of **`r fmt(italy$latest_value)`%**.
+
+Compared with `r first_year`, Italy's R&D intensity changed by **`r fmt_signed(italy$change_pp)` percentage points**. This figure helps us assess not only Italy's current distance from the other large European Union economies, but also the direction it has taken over the decade.
+
+```{r innovation-plot, echo=FALSE, fig.width=10, fig.height=6}
+latest_labels <- innovation %>%
+  filter(Year == latest_year)
+
+innovation %>%
+  ggplot(
+    aes(
+      x = Year,
+      y = R_and_D_intensity,
+      color = Country,
+      group = Country,
+      linewidth = Country == "Italy"
+    )
+  ) +
+  geom_line() +
+  geom_point(size = 2) +
+  geom_text(
+    data = latest_labels,
+    aes(label = paste0(Country, "  ", fmt(R_and_D_intensity), "%")),
+    hjust = -0.05,
+    size = 3.5,
+    show.legend = FALSE
+  ) +
+  scale_linewidth_manual(
+    values = c(`FALSE` = 0.8, `TRUE` = 1.4),
+    guide = "none"
+  ) +
+  scale_x_continuous(
+    breaks = seq(first_year, latest_year, by = 2),
+    limits = c(first_year, latest_year + 2),
+    expand = expansion(mult = c(0.01, 0.02))
+  ) +
+  scale_y_continuous(
+    labels = function(x) paste0(
+      format(x, decimal.mark = ".", trim = TRUE),
+      "%"
+    )
+  ) +
+  labs(
+    title = "Research and development expenditure as a share of GDP",
+    subtitle = paste0(
+      "Italy, Spain, France, and Germany, ",
+      first_year, "-", latest_year
+    ),
+    x = NULL,
+    y = "% of GDP",
+    color = NULL,
+    caption = paste0(
+      "Source: Eurostat, GERD by sector of performance ",
+      "(online data code: rd_e_gerdtot). Author's calculations."
+    )
+  ) +
+  cowplot::theme_cowplot() +
+  theme(
+    legend.position = "bottom",
+    plot.title.position = "plot",
+    plot.caption = element_text(hjust = 0),
+    axis.title.y = element_text(vjust = 1.5)
+  )
+```
+
+The chart shows that the gaps between the four countries have remained relatively stable. Germany continues to have the highest investment profile, while France, Spain, and Italy remain at lower levels. For Italy, the key issue is not simply whether the series rises or falls, but whether any increase is fast enough to narrow the gap with economies that devote a larger share of their GDP to research and development.
+
+R&D intensity should nevertheless be considered alongside other indicators, including research personnel, patents, collaboration between universities and businesses, the diffusion of digital technologies, and companies' ability to turn knowledge into new products and processes. From this perspective, the Eurostat indicator is a useful starting point rather than a definitive ranking of national innovation performance.
+
+Further information:
+
+<https://ec.europa.eu/eurostat/databrowser/view/rd_e_gerdtot/default/table?lang=en>
+
+<https://ec.europa.eu/eurostat/statistics-explained/index.php?title=R%26D_expenditure>

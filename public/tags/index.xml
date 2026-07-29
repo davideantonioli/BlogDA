@@ -6,13 +6,20 @@
     <description>Recent content in Tags on BlogDA</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:4321/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Energy Prices</title>
-      <link>//localhost:4321/tags/energy-prices/</link>
+      <title>Eurostat</title>
+      <link>//localhost:4321/tags/eurostat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/tags/energy-prices/</guid>
+      <guid>//localhost:4321/tags/eurostat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Innovation</title>
+      <link>//localhost:4321/tags/innovation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/tags/innovation/</guid>
       <description></description>
     </item>
     <item>
@@ -20,6 +27,41 @@
       <link>//localhost:4321/tags/italy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:4321/tags/italy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research and Development</title>
+      <link>//localhost:4321/tags/research-and-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/tags/research-and-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EPL</title>
+      <link>//localhost:4321/tags/epl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/tags/epl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Labour Market</title>
+      <link>//localhost:4321/tags/labour-market/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/tags/labour-market/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OECD</title>
+      <link>//localhost:4321/tags/oecd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/tags/oecd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Energy Prices</title>
+      <link>//localhost:4321/tags/energy-prices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/tags/energy-prices/</guid>
       <description></description>
     </item>
     <item>
