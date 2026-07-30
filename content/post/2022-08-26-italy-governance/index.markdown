@@ -24,9 +24,9 @@ For both the indexes the higher they are the better it is for the country.
 
 
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/plot_rli-1.png" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/plot_rli-1.png" alt="" width="672" />
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/plot_goveeffect-1.png" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/plot_goveeffect-1.png" alt="" width="672" />
 
 
 As we can see the performance of Italy is the lowest in this comparisons, pointing out a serious problem of governance for the country that we were not be able to solve in more than two decades.
